@@ -1,3 +1,5 @@
+// Jumlah mahasiswa yang di masukkan: 15 + (22 mod 10) = 15 + 2 = 17
+
 package Pertemuan9;
 import java.util.Scanner;
 

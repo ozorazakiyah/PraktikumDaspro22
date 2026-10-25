@@ -1,3 +1,6 @@
+// Tarif parkir mobil: 2500 + (22 mod 6) * 250 = 2500 + 4*250 = 2500 + 1000 = 3500
+// Tarif parkir sepeda: 1500 + (22 mod 6) * 250 = 1500 + 4*250 = 1500 + 1000 = 2500
+
 package Pertemuan9;
 import java.util.Scanner;
 
@@ -27,9 +30,9 @@ public class Tugas2Parkir {
                 durasi = sc.nextInt();
 
                 if (jenis == 1) {
-                    total += durasi * 3000;
+                    total += durasi * 3500;
                 } else {
-                    total += durasi * 2000;
+                    total += durasi * 2500;
                 }
             }
         
