@@ -1,10 +1,16 @@
+// Harga tiket: 40000 + (22 mod 6) * 2000 = 40000 + 4*2000 = 40000 + 8000 = 48.000
+// Tiket diskon pertama: 3 + (22 mod 3) = 3 + 1 = 4
+// Besar diskon pertama: 8 + (22 mod 5) = 8 + 2 = 10%
+// Tiket diskon kedua: 8 + (22 mod 4) = 8 + 2 = 10
+// Besar diskon kedua: 15 + (22 mod 4) = 15 + 2 = 17%
+
 package Pertemuan9;
 import java.util.Scanner;
 
 public class Tugas1Bioskop {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int totalHarga, hargaTiket = 50000;
+        int totalHarga, hargaTiket = 48000;
         int tiket, tiketTerjual = 0;
         int totalPenjualan = 0;
         double diskon, hargaDiskon;
@@ -22,7 +28,7 @@ public class Tugas1Bioskop {
             }
 
             if (tiket > 10){
-                diskon = 0.15; 
+                diskon = 0.17; 
             } else if (tiket > 4){
                 diskon = 0.10;
             } else {

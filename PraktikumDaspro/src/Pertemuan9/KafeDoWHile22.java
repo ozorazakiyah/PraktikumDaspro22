@@ -1,3 +1,7 @@
+// hargaKopi = 10000 + (22 mod 5) * 1000 = 10000 + 2*1000 = 12.000
+// hargaTeh = 5000 + (22 mod 4) * 1000 = 5000 + 2*1000 = 7.000
+// hargaRoti = 15000 + (22 mod 6) * 1000 = 15000 + 4*1000 = 19.000 
+
 package Pertemuan9;
 import java.util.Scanner;
 
@@ -8,7 +12,7 @@ public class KafeDoWHile22 {
         String namaPelanggan;
         int hargaKopi = 12000;
         int hargaTeh = 7000;
-        int hargaRoti = 20000;
+        int hargaRoti = 19000;
 
         do {
             System.out.print("Masukkan nama pelanggan (ketik 'batal' untuk keluar): ");
