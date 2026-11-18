@@ -4,11 +4,11 @@ import java.util.Arrays;
     
 public class ArrayBilangan22 {
     public static void main(String[] args) {
-    int[] bil = new int[4];
-    bil[0] = 5.0;
-    bil[1] = 12867;
-    bil[2] = 7.5;
-    bil[3] = 2000000;
+    int[] bil = {22, 30, -2, 27};
+    // bil[0] = 22;
+    // bil[1] = 30;
+    // bil[2] = -2;
+    // bil[3] = 27;
 
     for (int i = 0; i < bil.length; i++) {
         System.out.println("bil[" + i + "] = " + bil[i]);
