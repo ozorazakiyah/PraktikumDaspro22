@@ -1,6 +1,5 @@
 package Pertemuan12;
 import java.util.Arrays;
-import java.util.Arrays;
     
 public class ArrayBilangan22 {
     public static void main(String[] args) {
@@ -11,7 +10,7 @@ public class ArrayBilangan22 {
     // bil[3] = 27;
 
     for (int i = 0; i < bil.length; i++) {
-        System.out.println("bil[" + i + "] = " + bil[i]);
+        System.out.println("bil[" + i + "] = " + bil[i] + ", double = " + (bil[i] * 2));
     }
 
     for (int nilai : bil) {
