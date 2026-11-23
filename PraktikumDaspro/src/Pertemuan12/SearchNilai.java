@@ -1,8 +1,22 @@
 package Pertemuan12;
+import java.util.Scanner;;
+
 public class SearchNilai {
     public static void main(String[] args) {
-        int[] nilai = {78, 65, 90, 55, 88, 72};
-        int key = 72;
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Masukkan banyak nilai mahasiswa: ");
+        int jumlahMhs = sc.nextInt();
+
+        int[] nilai = new int[jumlahMhs];
+
+        for (int i = 0; i < nilai.length; i++) {
+            System.out.print("Masukkan nilai mahasiswa ke-" + (i+1) + ": ");
+            nilai[i] = sc.nextInt();
+        }
+
+        System.out.print("Masukkan value key: ");
+        int key = sc.nextInt();
         boolean ditemukan = false;
 
         for (int i = 0; i < nilai.length; i++) {
@@ -12,9 +26,9 @@ public class SearchNilai {
                 break;
             }
         }
-
         if (!ditemukan) {
             System.out.println("Nilai " + key + " tidak ditemukan");
         }
+        sc.close();
     }   
 }
