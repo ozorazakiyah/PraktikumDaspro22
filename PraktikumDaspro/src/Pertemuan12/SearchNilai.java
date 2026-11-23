@@ -27,7 +27,7 @@ public class SearchNilai {
             }
         }
         if (!ditemukan) {
-            System.out.println("Nilai " + key + " tidak ditemukan");
+            System.out.println("Nilai yang dicari (" + key + ") tidak ditemukan pada array dengan panjang elemen: " + jumlahMhs);
         }
         sc.close();
     }   
